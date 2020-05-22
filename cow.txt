@@ -36,8 +36,8 @@ def password():
   if not os.path.exists(".password"):
       os.makedirs(".password")
 
-  print("\033[1;32mLink Password Ada Di Bawah \033[1;0m\nhttp://exe.io/mI0JZqS")
-  pw = c.get("https://portaltermux.000webhostapp.com/paw.txt")
+  print("\033[1;32mLink Password Ada Di Bawah \033[1;0m\nhttp://exe.io/n1AI")
+  pw = c.get("https://pastebin.com/raw/BkCH015f")
   if not os.path.exists(".password/password.txt"):
       f = open(".password/password.txt", "w+")
       f.write("wowok")
@@ -58,9 +58,8 @@ def password():
       else:
           print("\033[1;31mPassword Salah...!")
           if i > 1:
-              print("\033[1;33mSilahkan Check Password Pada Link Di Bawah Ini\n\033[1;0mhttp://exe.io/mI0JZqS")
+              print("\033[1;33mSilahkan Check Password Pada Link Di Bawah Ini\n\033[1;0mhttp://exe.io/n1AI")
               sys.exit()
-
 
 def tunggu(x):
     sys.stdout.write("\r")
