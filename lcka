@@ -58,7 +58,7 @@ def password():
       else:
           print("\033[1;31mPassword Salah...!")
           if i > 1:
-              print("\033[1;33mSilahkan Check Password Pada Link Di Bawah Ini\n\033[1;0mhttp://jejakainc.com/Password/")
+              print("\033[1;33mSilahkan Check Password Pada Link Di Bawah Ini\n\033[1;0mhttp://exe.io/mI0JZqS")
               sys.exit()
 
 
