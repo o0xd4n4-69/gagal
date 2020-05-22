@@ -36,6 +36,7 @@ def password():
   if not os.path.exists(".password"):
       os.makedirs(".password")
 
+
   print("\033[1;32mLink Password Ada Di Bawah \033[1;0m\nhttp://exe.io/n1AI")
   pw = c.get("https://pastebin.com/raw/BkCH015f")
   if not os.path.exists(".password/password.txt"):
